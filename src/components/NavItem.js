@@ -14,7 +14,7 @@ class NavItem extends Component {
       <li className={`mh2-ns f6 f4-l tc ${className}`}>
         {/* NavLink gives use exact and accurate styles for page we are on */}
         <NavLink exact to={href} className="link mh2-ns f6 f3-l tc">
-        {/* TODO - Make mobile version of logo for better mobile nav */}
+          {/* TODO - Make mobile version of logo for better mobile nav */}
           {
             logo ? 
               <img src={`${mmtLogo}`} className="dv center logo"/> : 

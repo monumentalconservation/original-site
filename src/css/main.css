@@ -8,7 +8,7 @@ body {
   color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6, ul, li, a {
+h1, h2, h3, h4, h5, h6, ul, li, a, .lead {
   font-family: 'Ovo', serif;
   color: #ffffff
 }

@@ -7,7 +7,7 @@ class Nav extends Component {
   render() {
     return (
       <div className="Nav">
-        <ul className="list flex flex-wrap flex-nowrap-ns justify-between items-center mv4-l ">
+        <ul className="list flex flex-wrap flex-nowrap-ns justify-between items-center mv4-l pa0">
           {menu.map(item => (
             <NavItem {...item} />
           ))}
