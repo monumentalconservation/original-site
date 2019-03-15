@@ -1,13 +1,29 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+import Nav from './Nav'
+import Home from './Home'
+
+const About = () => <h1>About</h1>
+const Gdpr = () => <h1>GDPR</h1>
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        {/* intro title */}
-        {/* nav */}
-        {/* routed pages */}
-      </div>
+      // router wraps whole page
+      <Router>
+        <div className="App">
+          {/* intro title */}
+
+          <Nav />
+
+
+          {/* routed pages */}
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/gdpr" component={Gdpr} />
+        </div>
+      </Router>
     );
   }
 }
