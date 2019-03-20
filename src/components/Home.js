@@ -6,24 +6,26 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <section className="flex flex-wrap ">
-          <div className="w-60-ns">
-            <h2 className="f2 normal lh-title-ns mt3 pl5-ns">
+
+        {/* this is felx in mobile veiw - grid tablet and desktop */}
+        <section className="leader flex flex-wrap">
+          {/* <div className="lead-text"> */}
+            <h2 className="f3 f2-l normal lh-title-ns mh4 mb4 ma0-ns mt3-l ">
               {/* <div className="mb4"> */}
                 Monument Monitor is a collaborative research project between Historic Environment Scotland and University College London which aims to assess how we can visitors photographs of our properties to inform our site conservation and monitoring efforts.
               {/* </div> */}
             </h2>
-          </div>
-          <div className="w-40-ns mt7">
+          {/* </div> */}
+          <div className="photo">
             <img className="" src={takingPhotograph}/>
           </div>
-          <div>
-            <h1>
+          {/* <div> */}
+            <h1 className="f3 f2-ns tc tl-ns mv4 ma0-ns">
               To what extent can we 'crowdsource conservation'?
             </h1>
-          </div>
+          {/* </div> */}
         </section>
-        <section>
+        <section className="image-line">
           <img src={lochranza}/>
         </section>
       </div>
