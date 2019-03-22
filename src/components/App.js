@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Nav from './Nav'
 import Home from './Home'
+import About from './About'
 
-const About = () => <h1>About</h1>
+// const About = () => <h1>About</h1>
 const Gdpr = () => <h1>GDPR</h1>
 
 class App extends Component {
