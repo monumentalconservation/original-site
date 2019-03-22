@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import takingPhotograph from '../images/me-photo-min.jpg'
 
-class HomeIntro extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
+class HomeIntro extends Component {  
   render() {
-    const {alignment} = this.props
     return (
       <section className="leader mh5-ns">
         <h2 className="f3 f2-l normal lh-title-ns w-70-ns mh4 mb4 mv5-l ">

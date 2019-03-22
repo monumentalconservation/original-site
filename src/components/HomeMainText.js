@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ness from '../images/ness.jpg'
 import lochDoon from '../images/loch-doon.jpg'
-import achnabreck from '../images/achnabreck.jpg'
 
 
 class HomeMainText extends Component {

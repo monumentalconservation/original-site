@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Nav from './Nav'
 import Home from './Home'
 import About from './About'
+import Sites from './Sites'
 
-// const About = () => <h1>About</h1>
-const Gdpr = () => <h1>GDPR</h1>
+const GDPR = () => <h1>Sites HIYA</h1>
 
 class App extends Component {
   render() {
@@ -21,8 +21,9 @@ class App extends Component {
 
           {/* routed pages */}
           <Route exact path="/" component={Home} />
+          <Route path="/foo" components={Sites} />
           <Route path="/about" component={About} />
-          <Route path="/gdpr" component={Gdpr} />
+          <Route path="/gdpr" component={GDPR} />
         </div>
       </Router>
     );

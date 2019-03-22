@@ -16,7 +16,7 @@ class Home extends Component {
         <Border alignment="left" />
         
         <HomeMainText />
-        
+
         <Border alignment="right" />
 
         <h1 className="f3 f2-m f1-l normal tc ma5 ">
@@ -24,7 +24,7 @@ class Home extends Component {
         </h1>
 
         <section className="image-line grayscale">
-          <img src={lochranza}/>
+          <img alt="Rainbow over Lochranza castle" src={lochranza}/>
         </section>
 
       </div>
