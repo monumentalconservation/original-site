@@ -17,6 +17,15 @@ code {
     monospace;
 }
 
+section div a {
+  font-family: 'Roboto', "Helvetica Neue", sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .border-left:after {
   content: ""; /* This is necessary for the pseudo element to work. */ 
   display: block; /* This will put the pseudo element on its own line. */
@@ -46,7 +55,7 @@ code {
 
 .inverted {
   color: #000000;
-  background-color: rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.8);
   position: relative; 
   z-index: 1;
 }
@@ -68,14 +77,15 @@ section.image-line img {
 
 @media (min-width: 1281px) { 
   /* main text grid fun times, only for desktopsss */
-  section.main-text {
+  section.main-text, .secondary-text {
     width: 80%;
-    margin: 0 auto 5rem;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: max-content;
   }
 
+  /* Main text grid */
   section.main-text .grid-item-2 {
     grid-column: 4 / span 5;
     grid-row: 2 / span 2;
@@ -102,7 +112,29 @@ section.image-line img {
     grid-row: 6 / span 2;
   }
 
-  section.main-text .inverted {
-    background-color: rgba(255, 255, 255, 0.8);
+  /* Secondary text grid */
+  section.secondary-text .grid-item-1 {
+    grid-column: 5 / span 4;
+    grid-row: 1 /span 2;
+  }
+
+  section.secondary-text .grid-item-2 {
+    grid-column: 2 / span 6;
+    grid-row: 2 / span 2;
+  }
+
+  section.secondary-text .grid-item-3 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 2;
+  }
+
+  section.secondary-text .grid-item-4 {
+    grid-column: 5 / span 4;
+    grid-row: 5 / span 2;
+  }
+
+  section.secondary-text .grid-item-5 {
+    grid-column: 6 / span 5;
+    grid-row: 4 / span 2;
   }
 }
