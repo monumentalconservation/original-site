@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // overlay for image tile
-const Overlay = ({showInfo, title, text}) => (
+const Overlay = ({showInfo, title, text, twitter, email}) => (
   <div 
     className="absolute w-100 h-100 flex items-center pa3 pa4-ns overlay"
     style={{
@@ -10,7 +10,9 @@ const Overlay = ({showInfo, title, text}) => (
   >
     <div>
       <h1 className="f5 f3-ns mt0 mb2 regular lh-title">{title}</h1>
-      <p className="lh-copy-ns mv0 f6 f4-s measure-l">{text}</p>
+      <p className="lh-copy-ns mt0 mb2 f6 f4-s measure-l">{text}</p>
+      <p className="lh-copy-ns mt0 mb2 f5 f4-s measure-l tc">{twitter}</p>
+      <p className="lh-copy-ns mv0 f5 f4-s measure-l tc">{email}</p>
     </div>
   </div>
 )
@@ -39,7 +41,7 @@ class ImageTile extends Component {
   }
 
   render () {
-    const {title, text, image, className} = this.props
+    const {title, text, image, email, twitter, className} = this.props
     const {showInfo} = this.state
     return (
       <div 
