@@ -32,7 +32,7 @@ class Home extends Component {
         <Border alignment="left" />
 
         {/* next load of grid stuff... */}
-
+        {/* TODO - refcator this... */}
         <section className="secondary-text">
           <div className="f5 f4-m f3-ns grid-item-1 pa4 lh-copy inverted">
             Specifically, we will be looking at exactly what we can measure reliably using visitors photographs and how many images are needed for it to be a reliable method of monitoring. We will be attempting to measure discolouration and colour change, erosion, moss and lichen growth, erosion as well as vandalism. We will also study how many images have to be submitted to allow for a If enough images are submitted, we intend to use AI for the identification and measurement

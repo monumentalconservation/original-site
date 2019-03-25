@@ -5,8 +5,7 @@ import Nav from './Nav'
 import Home from './Home'
 import About from './About'
 import Sites from './Sites'
-
-const GDPR = () => <h1>Sites HIYA</h1>
+import GDPR from './GDPR'
 
 class App extends Component {
   render() {
