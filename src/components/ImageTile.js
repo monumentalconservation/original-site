@@ -44,16 +44,18 @@ class ImageTile extends Component {
     const {title, text, image, email, twitter, className} = this.props
     const {showInfo} = this.state
     return (
-      <div 
-        className={`ph0-l w-100 overflow-hidden pointer attraction ${className}`} 
-        onClick={this.toggleInfo}
-        // onMouseLeave={this.closeInfo}
-      >
-        <div className="relative">
-          <Overlay {...this.props}{...this.state}/>
-          <img src={`${image}`} className="db grayscale" />
+      <section className={`tile w-100 w-50-ns mb4 mb0-ns ph4-ns ${className}`}>
+        <div 
+          className={`ph0-l w-100 overflow-hidden pointer attraction`} 
+          onClick={this.toggleInfo}
+          // onMouseLeave={this.closeInfo}
+          >
+          <div className="relative">
+            <Overlay {...this.props}{...this.state}/>
+            <img src={`${image}`} className="db grayscale" />
+          </div>
         </div>
-      </div>
+      </section>
     )
   }
 }
