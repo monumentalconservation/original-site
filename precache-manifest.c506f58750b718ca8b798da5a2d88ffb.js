@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/new-site/static/media/lochranza-rainbow.72701de7.jpg"
   },
   {
-    "revision": "3cf8ec80b664a3813c4c",
+    "revision": "fde016151a9e7e7c39e5",
     "url": "/new-site/static/css/main.0aaa7087.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/new-site/static/media/loch-doon.acd8e116.jpg"
   },
   {
-    "revision": "3cf8ec80b664a3813c4c",
-    "url": "/new-site/static/js/main.a21c1cd3.chunk.js"
+    "revision": "fde016151a9e7e7c39e5",
+    "url": "/new-site/static/js/main.019ccd1d.chunk.js"
   },
   {
     "revision": "d34a1668343e972f48891d702cd36f53",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/new-site/static/css/2.d82b5b93.chunk.css"
   },
   {
-    "revision": "dd687c087bc0c9919bae62db657c5b75",
+    "revision": "565e61c067aaf044ab4d95cf5622e8a2",
     "url": "/new-site/index.html"
   }
 ];
