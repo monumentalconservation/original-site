@@ -73,9 +73,9 @@ section.image-line img {
   object-fit: cover;
 }
 
+/* Main page */
 
-
-@media (min-width: 1281px) { 
+@media (min-width: 1100px) { 
   /* main text grid fun times, only for desktopsss */
   section.main-text, .secondary-text {
     width: 80%;
@@ -137,4 +137,16 @@ section.image-line img {
     grid-column: 6 / span 5;
     grid-row: 4 / span 2;
   }
+}
+
+
+/* About page */
+
+.about section.tile {
+  /* height: 30vh; */
+}
+
+.about section.tile img {
+  min-width: 100%;
+  object-fit: cover;
 }
