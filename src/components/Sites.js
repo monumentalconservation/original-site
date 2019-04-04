@@ -5,32 +5,35 @@ import MasonryLayout from './MasonryLayout'
 import SiteImages from './SiteImages'
 import SiteImage from './SiteImage'
 
-
-// TODO - make this responsive...
 class Sites extends Component {
   constructor() {
     super()
 
     this.state = {
-      columnCount: this.calculateColumnCount
+      columnCount: this.calculateColumnCount()
     }
-
     window.addEventListener("resize", this.updateColumnCount)
   }
-
-  calculateColumnCount = () => {
-    return (window.innerWidth < 1100 ? 1 : 3)
-  }
-
+  
   updateColumnCount = () => {
     this.setState({
-      columnCount: this.calculateColumnCount
+      columnCount: this.calculateColumnCount()
     })
+  }
+  
+  calculateColumnCount = () => {
+    var width = window.innerWidth
+    if (width < 701) {
+      return 1
+    } else if (width > 700 && width < 1100) {
+      return 2
+    } else if (width > 1100) {
+      return 3
+    }
   }
 
   render() {
-    // const width = window.innerWidth
-    const columnCount = (window.innerWidth < 1100 ? 1 : 3)
+    const {columnCount} = this.state
     return (
       <div className="sites">
         <Border alignment="left" />
@@ -44,7 +47,6 @@ class Sites extends Component {
             })
           }
           </MasonryLayout>
-          
         </div>
       </div>
     );
