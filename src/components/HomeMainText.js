@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ness from '../images/ness.jpg'
-import lochDoon from '../images/loch-doon.jpg'
+import ness from '../images/sites/ness.jpg'
+import lochDoon from '../images/sites/loch-doon.jpg'
 
 
 class HomeMainText extends Component {

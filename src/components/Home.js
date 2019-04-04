@@ -4,9 +4,9 @@ import HomeIntro from './HomeIntro'
 import HomeMainText from './HomeMainText'
 
 // images (some unused)
-import lochranza from '../images/lochranza-rainbow.jpg'
-import lock from '../images/cearverlock.jpg'
-import achnabreck from '../images/achnabreck2.jpg'
+import lochranza from '../images/sites/lochranza-rainbow.jpg'
+import lock from '../images/sites/cearverlock.jpg'
+import achnabreck from '../images/sites/achnabreck2.jpg'
 
 class Home extends Component {
   render() {
@@ -14,11 +14,8 @@ class Home extends Component {
       <div className="Home">
 
         <HomeIntro />
-        
         <Border alignment="left" />
-        
         <HomeMainText />
-
         <Border alignment="right" />
 
         <h1 className="f3 f2-m f1-l normal tc ma5 ">
