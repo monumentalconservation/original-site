@@ -40,7 +40,8 @@ const menu = [
   {
     text: 'Blog',
     className: 'order-4-ns w-20',
-    href: '/'
+    href: 'https://roosrambles.com/',
+    target: "_blank"
   },
   {
     text: 'Your Data',
