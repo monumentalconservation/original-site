@@ -4,7 +4,7 @@ class Border extends Component {
   constructor(props) {
     super(props)
   }
-  
+  // TODO: animate this to they mooooove
   render() {
     const {alignment} = this.props
     return (
