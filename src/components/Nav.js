@@ -28,7 +28,7 @@ const menu = [
     href: '/'
   },
   {
-    text: 'About',
+    text: 'The Team',
     className: 'order-1-ns w-20',
     href: '/about'
   },

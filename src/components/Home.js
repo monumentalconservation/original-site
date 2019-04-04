@@ -32,15 +32,15 @@ class Home extends Component {
         {/* TODO - refcator this... */}
         <section className="secondary-text">
           <div className="f5 f4-m f3-ns grid-item-1 pa4 lh-copy inverted">
-            Specifically, we will be looking at exactly what we can measure reliably using visitors photographs and how many images are needed for it to be a reliable method of monitoring. We will be attempting to measure discolouration and colour change, erosion, moss and lichen growth, erosion as well as vandalism. We will also study how many images have to be submitted to allow for a If enough images are submitted, we intend to use AI for the identification and measurement
+            Specifically, we will be looking at exactly what we can measure reliably using visitors photographs and how many images are needed for it to be a reliable method of monitoring. We will be attempting to measure discolouration and colour change, erosion, moss and lichen growth, erosion as well as vandalism. We will also want to ascertain if AI can be used for any or all of this process.
           </div>
           <img src={achnabreck} className="grid-item-2 grayscale w-100 h-auto" />
           <div className="f5 f4-m f3-ns grid-item-3 pa4 lh-copy inverted">
-            The sites selected are widely spread across Scotland and are a healthy mix of castles, neolithic monuments, churches and iron age forts. Check out the <a href="/sites">sites</a> page to see if there is one near you!
+            Our case study sites are spread throughout Scotland and are a healthy mix of castles, neolithic monuments, churches and iron age forts. Check out the <a href="/sites">sites</a> page to see if there is one near you!
           </div>
           <img src={lock} className="grid-item-4 grayscale w-100 h-auto" />
           <div className="f5 f4-m f3-ns grid-item-5 pa4 lh-copy inverted">
-            Monument Monitor is a jointly funded PhD research project between <a href="" target="_blank">Historic Environment Scotland</a> (HES) and the <a href="" target="_blank">Institute of Sustainable Heritage</a> at University College London (UCL).  
+            Monument Monitor is a jointly funded PhD research project between <a href="https://www.historicenvironment.scot/" target="_blank">Historic Environment Scotland</a> (HES) and the <a href="https://www.ucl.ac.uk/bartlett/heritage/" target="_blank">Institute of Sustainable Heritage</a> at University College London (UCL).  
             Visit our <a href="/about">about</a> page to see who's who.
           </div>
         </section>

@@ -42,6 +42,7 @@ class Sites extends Component {
           {
             SiteImages.map(item => {
               return (
+                // TODO - Make this a link to a modal or separate page...
                 <SiteImage {...item} />
               )
             })
