@@ -150,3 +150,27 @@ section.image-line img {
   min-width: 100%;
   object-fit: cover;
 }
+
+/* Site page */
+.sites .site {
+  text-align: center;
+}
+
+.sites .site div.site-name {
+  opacity: 0;
+  transition: 0.8s;
+}
+
+@keyframes greyscale-fade-in {
+  0%   { -webkit-filter: grayscale(100%); }
+  100% { -webkit-filter: grayscale(0%); }
+}
+
+.sites .site img:hover {
+  animation: greyscale-fade-in 0.8s ease-in forwards;
+  cursor: pointer;
+}
+
+.sites .site img:hover + .site-name {
+  opacity: 1;
+}
