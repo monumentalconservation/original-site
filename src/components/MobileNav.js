@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
 import NavItem from './NavItem'
 
-import mmtLogoMobile from '../images/mmt-main-logo.png'
+import mmtLogoMobile from '../images/mmt-main-logo-mobile.png'
 import menu from '../images/menu.png'
 
 // TODO - refactor this!
@@ -36,7 +36,7 @@ class MobileNav extends Component {
       <div>
 
         <div className="mobile-nav-header">
-          <span className="fl w-third">
+          <span className="fl w-20 w-third-ns">
             <img 
               src={menu} 
               className="ham h2 ma3" 
