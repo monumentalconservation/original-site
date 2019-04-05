@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 import NavItem from './NavItem'
 
 import mmtLogoMobile from '../images/mmt-main-logo.png'
 import menu from '../images/menu.png'
 
+// TODO - refactor this!
 class MobileNav extends Component {
   constructor(props) {
     super(props)
@@ -37,16 +39,18 @@ class MobileNav extends Component {
           <span className="fl w-third">
             <img 
               src={menu} 
-              className="h2 ma3" 
+              className="ham h2 ma3" 
               onClick={this.toggleMenu}
             />
           </span>
-          <img src={mmtLogoMobile} className="h3" />
+            <NavLink exact to={"/"}>
+              <img src={mmtLogoMobile} className="mobile-logo h3" />
+            </NavLink>
         </div>
-        <div className="mobile-nav-child absolute w-100">
+        <div className="mobile-nav-child w-100">
           <ul 
             style={{
-              transform: showMenu? 'none' : 'translateY(-100%)'
+              "display" : showMenu? 'flex' : "none"
             }}
             className="list flex flex-wrap flex-nowrap-ns justify-between items-center mv4-l pa0">
             {navChildLinks.map(item => (
@@ -66,23 +70,23 @@ export default MobileNav;
 const navChildLinks = [
   {
     text: 'The Team',
-    className: 'order-1-ns w-20',
+    className: 'order-1-ns w-100 w-20-ns pv1 pv0-ns',
     href: '/about'
   },
   {
     text: 'Sites',
-    className: 'order-2-ns w-20',
+    className: 'order-2-ns w-100 w-20-ns pv1 pv0-ns',
     href: '/sites'
   },
   {
     text: 'Blog',
-    className: 'order-4-ns w-20',
+    className: 'order-4-ns w-100 w-20-ns pv1 pv0-ns',
     href: 'https://roosrambles.com/',
     target: "_blank"
   },
   {
     text: 'Your Data',
-    className: 'order-5-ns w-20',
+    className: 'order-5-ns w-100 w-20-ns pv1 pv0-ns',
     href: 'gdpr'
   }
 ];

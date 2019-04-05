@@ -64,16 +64,31 @@ section div a {
   z-index: 1;
 }
 
-.overlay .mobile-nav-child {
-  transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+.overlay {
+  transition: transform 0.8s cubic-bezier(0.65, 0.05, 0.36, 1);
   background: rgba(39, 39, 39, 0.6);
+  z-index: 1;
+}
+
+/* Nav specific styles */
+.mobile-nav-header  {
+  transition: 0.8s;
+  position: sticky;
+  top: 0;
+}
+/* TODO - refactor */
+.mobile-nav-header .ham, .mobile-logo {
+  cursor: pointer;
 }
 
 .mobile-nav-child {
-  opacity: 0;
-
+  padding: 0 18px;
+  overflow: auto;
 }
 
+.mobile-nav-child ul {
+  transition: 0.8s;
+}
 /* specific styles from here */
 section.image-line img {
   height: 30vh;
@@ -81,8 +96,8 @@ section.image-line img {
   object-fit: cover;
 }
 
-/* Main page */
 
+/* Main page */
 @media (min-width: 1100px) { 
   /* main text grid fun times, only for desktopsss */
   section.main-text, .secondary-text {
