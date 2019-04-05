@@ -1,17 +1,34 @@
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
-import NavItem from './NavItem'
 
+import MobileNav from './MobileNav'
+import DesktopNav from './DesktopNav'
 
 class Nav extends Component {
+  constructor() {
+    super()
+    this.state = {
+      isMobile: this.checkIfMobile()
+    }
+    window.addEventListener("resize", this.updateIfMobile)
+  }
+
+  // TODO: refactor this out
+  updateIfMobile = () => {
+    this.setState({
+      isMobile: this.checkIfMobile()
+    })
+  }
+  
+  checkIfMobile = () => {
+    var width = window.innerWidth
+    return (width < 700) ?  true : false
+  }
+
   render() {
+    const {isMobile} = this.state
     return (
       <div className="Nav">
-        <ul className="list flex flex-wrap flex-nowrap-ns justify-between items-center mv4-l pa0">
-          {menu.map(item => (
-            <NavItem {...item} />
-          ))}
-        </ul>
+        { isMobile ? <MobileNav /> : <DesktopNav /> }
       </div>
     );
   }
@@ -19,33 +36,3 @@ class Nav extends Component {
 
 export default Nav;
 
-
-const menu = [
-  {
-    text: 'Home',
-    logo: true,
-    className: 'order-3-ns w-100 w-30-ns mb3 mb0-ns',
-    href: '/'
-  },
-  {
-    text: 'The Team',
-    className: 'order-1-ns w-20',
-    href: '/about'
-  },
-  {
-    text: 'Sites',
-    className: 'order-2-ns w-20',
-    href: '/sites'
-  },
-  {
-    text: 'Blog',
-    className: 'order-4-ns w-20',
-    href: 'https://roosrambles.com/',
-    target: "_blank"
-  },
-  {
-    text: 'Your Data',
-    className: 'order-5-ns w-20',
-    href: 'gdpr'
-  }
-];

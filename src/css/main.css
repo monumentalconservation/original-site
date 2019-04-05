@@ -26,6 +26,10 @@ section div a {
   text-decoration: none;
 }
 
+.border-right {
+  overflow: hidden;
+}
+
 .border-left:after {
   content: ""; /* This is necessary for the pseudo element to work. */ 
   display: block; /* This will put the pseudo element on its own line. */
@@ -60,10 +64,14 @@ section div a {
   z-index: 1;
 }
 
-.overlay {
+.overlay .mobile-nav-child {
   transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
   background: rgba(39, 39, 39, 0.6);
-  z-index: 1;
+}
+
+.mobile-nav-child {
+  opacity: 0;
+
 }
 
 /* specific styles from here */
