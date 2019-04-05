@@ -21,7 +21,7 @@ class HomeMainText extends Component {
         </div>
         <img src={ness} className="grid-item-4 grayscale w-100 h-auto" />
         <div className="f5 f4-m f3-ns grid-item-5 pa4 lh-copy inverted">
-          Over the next two years this project will run at 20 different sites across Scotland. Signs will ask visitors to take photographs of specific things at each site and submit them via email, whatsapp, twitter or instagram using the hashtag #monumentmonitor. We will use these photographs to monitor long term issues effecting each site to try and establish to what extent visitors photographs can be used for this purpose. 
+          Over the next two years this project will run at 20 different sites across Scotland. Signs will ask visitors to take photographs of specific things at each site and submit them via email, whatsapp, twitter or instagram using the hashtag #monumentmonitor. We will use these photographs to monitor long term issues affecting each site to try and establish to what extent visitors photographs can be used for this purpose. 
         </div>
       </section>
 

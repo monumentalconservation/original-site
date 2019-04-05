@@ -16,7 +16,7 @@ class About extends Component {
           className="mt4 mt0-ns pl0-m"
           title="Rosie Brigham"
           image={headshot} 
-          text="After studying History of Art and Conservation at UCL Rosie re-trained as a software developer and worked in the London fin tech and start-up world. She never lost her passion for history and conservation and after several years of working as a full stack and backend developer she re-joined academia to specialise in Citizen Heritage Science, and founded the Monument Monitor project."
+          text="After studying History of Art and Conservation at UCL Rosie re-trained as a software developer and worked in the London start-up sector. She never lost her passion for history and conservation and after several years of working as a full stack and backend developer she re-joined academia to specialise in Citizen Heritage Science, and founded the Monument Monitor project."
           twitter="@rosie934"
           email="rosie.brigham.10@ucl.ac.uk" 
         />
