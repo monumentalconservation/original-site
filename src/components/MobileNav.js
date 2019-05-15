@@ -40,11 +40,15 @@ class MobileNav extends Component {
             <img 
               src={menu} 
               className="ham h2 ma3" 
+              alt="menu icon"
               onClick={this.toggleMenu}
             />
           </span>
             <NavLink exact to={"/"}>
-              <img src={mmtLogoMobile} className="mobile-logo h3" />
+              <img 
+                src={mmtLogoMobile} 
+                alt="Monument Monitor logo"
+                className="mobile-logo h3" />
             </NavLink>
         </div>
         <div className="mobile-nav-child w-100">

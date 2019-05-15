@@ -9,7 +9,7 @@ class HomeIntro extends Component {
             Monument Monitor is a collaborative research project between Historic Environment Scotland and University College London which aims to assess to what extent we can use visitors photographs of heritage sites to inform conservation and monitoring efforts.
         </h2>
         <div className="photo w-100 overflow-auto pb5-ns">
-          <img className="w-60-ns fr-ns grayscale" src={takingPhotograph}/>
+          <img className="w-60-ns fr-ns grayscale" src={takingPhotograph} alt="woman taking photograph of standing stones"/>
         </div>
       </section>
     );

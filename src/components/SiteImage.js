@@ -8,7 +8,11 @@ class SiteImage extends Component {
     const {image, name} = this.props
     return (
       <div className="site">
-        <img className="grayscale" src={image}/>
+        <img 
+          className="grayscale" 
+          src={image}
+          alt={name}
+        />
         <div className="site-name">
           <h3 className="f3 ma0">{name}</h3>
         </div>

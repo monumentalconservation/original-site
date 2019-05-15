@@ -52,7 +52,7 @@ class ImageTile extends Component {
           >
           <div className="relative">
             <Overlay {...this.props}{...this.state}/>
-            <img src={`${image}`} className="db grayscale" />
+            <img src={`${image}`} atl={`${title}`} className="db grayscale" />
           </div>
         </div>
       </section>
