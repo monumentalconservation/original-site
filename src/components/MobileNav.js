@@ -83,10 +83,9 @@ const navChildLinks = [
     href: '/sites'
   },
   {
-    text: 'Blog',
+    text: 'Publications',
     className: 'order-4-ns w-100 w-20-ns pv1 pv0-ns',
-    href: 'https://roosrambles.com/',
-    target: "_blank"
+    href: '/results'
   },
   {
     text: 'Your Data',

@@ -38,10 +38,9 @@ const menu = [
     href: '/sites'
   },
   {
-    text: 'Blog',
+    text: 'Results & Publications',
     className: 'order-4-ns w-20',
-    href: 'https://roosrambles.com/',
-    target: "_blank"
+    href: '/results'
   },
   {
     text: 'Your Data',

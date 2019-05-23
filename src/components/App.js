@@ -6,6 +6,7 @@ import Home from './Home'
 import About from './About'
 import Sites from './Sites'
 import GDPR from './GDPR'
+import Results from './Results'
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path="/new-site" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/gdpr" component={GDPR} />
+          <Route path="/results" component={Results} />
         </div>
       </Router>
     );
