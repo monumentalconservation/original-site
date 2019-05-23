@@ -51,7 +51,7 @@ const resultsAndPublications = [
   {
     title: 'Crowdsourcing as an Analytical Method: Metrology of Smartphone Measurements in Heritage Science',
     link: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/ange.201801743',
-    description: 'Read our paper published in Angewandte Chemie that looks at the accuracy of colour in images taken by a vaerity of mobile phone cameras',
+    description: 'Read our paper published in Angewandte Chemie, that looks at the accuracy of colour in images taken by a variety of mobile phone cameras',
     imageLink: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6055710/bin/ANIE-57-7423-g004.jpg',
     alignment: 'right',
     styles: 'mt5 flex-row-reverse'
