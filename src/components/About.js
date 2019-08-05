@@ -26,7 +26,7 @@ class About extends Component {
           className="pt5-ns pr0-m"
           title="Josep Grau-Bove"
           image={josep} 
-          text="Josep is a Heritage Scientist currently working at the Institute of Sustainable Heritage. He is the director of the the director for the MRes in Science in Egineering in Arts, Heritage and Archeology as well and the MSc in Heritage Data Science."
+          text="Josep is a Heritage Scientist currently working at the Institute of Sustainable Heritage. He is the director for the MRes in Science in Egineering in Arts, Heritage and Archeology as well and the MSc in Heritage Data Science."
           twitter="@lomecreu" 
         />
 
