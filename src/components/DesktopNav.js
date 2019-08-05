@@ -45,6 +45,6 @@ const menu = [
   {
     text: 'Your Data',
     className: 'order-5-ns w-20',
-    href: 'gdpr'
+    href: '/gdpr'
   }
 ];

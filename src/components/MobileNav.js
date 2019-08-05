@@ -90,6 +90,6 @@ const navChildLinks = [
   {
     text: 'Your Data',
     className: 'order-5-ns w-100 w-20-ns pv1 pv0-ns',
-    href: 'gdpr'
+    href: '/gdpr'
   }
 ];
