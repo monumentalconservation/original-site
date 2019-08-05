@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 import Border from './Border'
 import HomeIntro from './HomeIntro'
 import HomeMainText from './HomeMainText'
@@ -36,12 +38,12 @@ class Home extends Component {
           </div>
           <img src={achnabreck} alt="achnabeck neolitic site" className="grid-item-2 grayscale w-100 h-auto" />
           <div className="f5 f4-m f3-ns grid-item-3 pa4 lh-copy inverted">
-            Our case study sites are spread throughout Scotland and are a healthy mix of castles, neolithic monuments, churches and iron age forts. Check out the <a href="/sites">sites</a> page to see if there is one near you!
+            Our case study sites are spread throughout Scotland and are a healthy mix of castles, neolithic monuments, churches and iron age forts. Check out the <Link to="/sites">sites</Link> page to see if there is one near you!
           </div>
           <img src={lock} alt="lochranza castle" className="grid-item-4 grayscale w-100 h-auto" />
           <div className="f5 f4-m f3-ns grid-item-5 pa4 lh-copy inverted">
             Monument Monitor is a jointly funded PhD research project between <a href="https://www.historicenvironment.scot/" target="_blank">Historic Environment Scotland</a> (HES) and the <a href="https://www.ucl.ac.uk/bartlett/heritage/" target="_blank">Institute of Sustainable Heritage</a> at University College London (UCL).  
-            Visit our <a href="/about">about</a> page to see who's who.
+            Visit our <Link to="/about">about</Link> page to see who's who.
           </div>
         </section>
 
