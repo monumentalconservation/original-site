@@ -189,11 +189,33 @@ section.image-line img {
   100% { -webkit-filter: grayscale(0%); }
 }
 
-.sites .site img:hover {
+.sites .site .is-visible img:hover {
   animation: greyscale-fade-in 0.8s ease-in forwards;
   cursor: pointer;
 }
 
-.sites .site img:hover + .site-name {
+.sites .site div:hover + .site-name {
   opacity: 1;
 }
+
+/* fading in loading images */
+
+/* @keyframes fadeInImg {
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+.img-loading {
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+.img-loaded {
+  animation: fadeInImg cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.7s;
+  animation-delay: 0.1s;
+} */

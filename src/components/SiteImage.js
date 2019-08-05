@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import LazyLoad from 'react-lazy-load';
+
+import ImageLoader from './ImageLoader';
 
 class SiteImage extends Component {
   constructor(props) {
@@ -8,11 +11,20 @@ class SiteImage extends Component {
     const {image, name} = this.props
     return (
       <div className="site">
-        <img 
-          className="grayscale" 
-          src={image}
-          alt={name}
-        />
+        <LazyLoad 
+          debounce={false}
+          offsetVertical={500}>
+            <ImageLoader 
+              src={image}
+              alt={name}
+            />
+
+          {/* <img 
+            className="grayscale" 
+            src=
+            alt={name}
+            /> */}
+        </LazyLoad>
         <div className="site-name">
           <h3 className="f3 ma0">{name}</h3>
         </div>
