@@ -25,6 +25,14 @@ export default Results;
 
 const resultsAndPublications = [
   {
+    title: "Monument Monitor in the Scottish Herald",
+    link: "https://www.heraldscotland.com/news/17734011.tourists-photos-will-be-used-to-conserve-historic-sites/",
+    description: "Climate change is presenting organisations, such as Historic Environment Scotland (HES), with new and unprecedented challenges in the care and protection of important historic sites and places. HES looks after over 300 of Scotland’s historic monuments, from Tantallon Castle in East Lothian to Skara Brae in Orkney and last year welcomed more than 5.2 million visitors to its staffed properties. HES estimates that a further seven million people visited its unstaffed properties – sites that are free of charge to visit at any time...",
+    imageLink: 'https://www.historicenvironment.scot/media/1251/tantallon-2.jpg?center=0.375,0.45&mode=crop&width=800&height=480&rnd=131051015740000000',
+    alignment: 'right',
+    styles: 'mt5 flex-row-reverse'
+  },
+  {
     title: 'Introducing Monument Monitor - Historic Environment Scotland Blog',
     link: 'https://blog.historicenvironment.scot/2019/05/monument-monitor/',
     description: 'Historic Environment Scotland takes up the pen to publicise this project, learn how you can be a ‘citizen scientist’ at 20 of Scotland’s most evocative historic sites as part of an exciting new conservation project.',
