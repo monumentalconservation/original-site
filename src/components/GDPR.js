@@ -46,6 +46,7 @@ class GDPR extends Component {
         <p>
           For each case study site, we will group the images and look at them over a period of time to see if we can observe patterns of deterioration across them. If this is successful, we then analyse them using machine vision, using a tool called ‘segmentation’. This is where an algorithm is trained to recognise parts of an image and highlights and measured it accordingly. We hope this will be useful for properties suffering from erosion or vegetation growth.
           We are also interested in who submits images, and how often. Very often in citizen science projects a smaller number of people will submit the largest number of images. We want to see if this is the case for these experiments, which is also why we collect anonymised submission details.
+          By sending us your photos you give us permission to use them for these research purposes, as well as to promote the research in publications such as news articles, twitter posts or blogs. If at any time you would like to remove your photos from the project, you can email us on the address given below.
         </p>
 
         <h4>Data Protection Privacy Notice</h4>
@@ -55,12 +56,12 @@ class GDPR extends Component {
 
         <h4>Will you ever use my details to contact me about this project or anything else in the future?</h4>
         <p>
-          Other than responding to enquiries and thanking you for contributing to the project after submitting, we will not contact you. As mentioned above, we will not store any personal contact information and we will delete submissions via email and WhatsApp as soon as they have been uploaded. 
+          Other than responding to enquiries, thanking you for contributing to the project after submitting or sending a short post-submission survey, we will not contact you. As mentioned above, we will not store any personal contact information and we will delete submissions via email and WhatsApp as soon as they have been uploaded. 
         </p>
 
         <h4>What if I want you to remove my submission?</h4>
         <p>
-          If, at any point you want us to remove your contributions from the project, please email us at monumentmonitor@gmail.com with the subject “Data Removal”. Please include the date and type of your submission, as well as what site it was taken at and a description of the image. We will then delete all relevant information and send you a confirmation email. 
+          If, at any point you want us to remove your contributions from the project, please email us at info@monumentmonitor.co.uk with the subject “Data Removal”. Please include the date and type of your submission, as well as what site it was taken at and a description of the image. We will then delete all relevant information and send you a confirmation email. 
         </p>
 
         <h4>Use of cookies</h4>

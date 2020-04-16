@@ -25,6 +25,35 @@ export default Results;
 
 const resultsAndPublications = [
   {
+    title: "Stay at home and Send us your old photos!",
+    link: "https://blog.historicenvironment.scot/2020/04/monument-monitor-2/",
+    description: "With the country under lockdown, we do not want visitors to our case study heritage sites. Instead, we are asking people to send in their photos from visits past, the older the better! Even if we are temporarily unable to explore ancient castles, wander around stone circles and picnic amid the ruins of brochs, we can learn much about them from all our individual experiences from years past. Send your images to submissions@monumentmonitor.co.uk",
+    imageLink: 'https://blog.historicenvironment.scot/wp-content/uploads/2020/04/008-001-008-494-R-banner.png',
+    alignment: 'right',
+    styles: 'mt5 flex-row-reverse'
+  },{
+    title: "Research at Clava Cairns featured on BBC news",
+    link: "https://www.bbc.co.uk/news/uk-scotland-highlands-islands-50670902",
+    description: "BBC news report on our work at Clava Cairns, a 4000 year old burial site near the battlefield of Culloden. Often tourists like to take 'souveniers' home with them, though apparently one Belgium tourist regretted this decision claiming it 'cursed' his family. Since the MM project started, there has been a noticable drop in reported incidents at Clava",
+    imageLink: 'https://ichef.bbci.co.uk/news/660/cpsprodpb/D1C1/production/_96379635_vandals.jpg',
+    alignment: 'left',
+    styles: 'flex-wrap'
+  }, {
+    title: "Monument Monitor at the ICON Twitter conference",
+    link: "https://twitter.com/rosie934/status/1202260343440990209",
+    description: "Read  the initial results from the MM project in this Twitter thread which was a part of the Institute of Conservations 2019 Twitter Conference. ",
+    imageLink: 'https://pbs.twimg.com/media/EK9JzLKXsAYJenp?format=jpg&name=4096x4096',
+    alignment: 'right',
+    styles: 'mt5 flex-row-reverse'
+  },{
+    title: "Monument Monitor researcher on BBC Radio Scotland's John Beattie program",
+    link: "https://www.bbc.co.uk/programmes/m0009s21",
+    description: "Rosie Brigham makes a breif appearance on John Beatties lunchtime show to discuss how the project is helping Historic Environment Scotland is using visitors images to help monitor their unstaffed sites.",
+    imageLink: 'https://ichef.bbci.co.uk/images/ic/640x360/p06dzwyp.jpg',
+    alignment: 'left',
+    styles: 'flex-wrap'
+  },
+  {
     title: "Monument Monitor in the Scottish Herald",
     link: "https://www.heraldscotland.com/news/17734011.tourists-photos-will-be-used-to-conserve-historic-sites/",
     description: "Climate change is presenting organisations, such as Historic Environment Scotland (HES), with new and unprecedented challenges in the care and protection of important historic sites and places. HES looks after over 300 of Scotland’s historic monuments, from Tantallon Castle in East Lothian to Skara Brae in Orkney and last year welcomed more than 5.2 million visitors to its staffed properties. HES estimates that a further seven million people visited its unstaffed properties – sites that are free of charge to visit at any time...",
