@@ -71,7 +71,7 @@ class GDPR extends Component {
 
         <h4>How do I find out more?</h4>
         <p>
-          Any results will be published in our blog alongside other academic publications and papers. Alternatively, if you have questions just get in touch! Email us at info@monumentmonitor.com 
+          Any results will be published in our blog alongside other academic publications and papers. Alternatively, if you have questions just get in touch! Email us at info@monumentmonitor.co.uk
         </p>
 
         <h4>Who can I contact for further information?</h4>
