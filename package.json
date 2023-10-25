@@ -2,7 +2,7 @@
   "name": "mmt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.monumentmonitor.co.uk",
+  "homepage": "https://monumentalconservation.github.io/new-site/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "normalize.css": "^8.0.1",
