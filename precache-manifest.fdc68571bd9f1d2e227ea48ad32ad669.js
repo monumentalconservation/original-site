@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/new-site/static/media/rekrei.c8959762.png"
   },
   {
-    "revision": "91c9fa4a029e8f17cc66fac1e8123c26",
+    "revision": "f808019eefd0f03a36e47dee6ef0d1fa",
     "url": "/new-site/index.html"
   }
 ];
