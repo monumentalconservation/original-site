@@ -3,7 +3,7 @@ import { Route } from 'react-router';
 
 export default (
   <Route>
-    <Route exact path="/" />
+    <Route exact path="/original-site" />
     <Route path="/sites" />
     <Route path="/original-site"  />
     <Route path="/about" />
