@@ -8,7 +8,7 @@ const Sitemap = require("react-router-sitemap").default;
 function generateSitemap() {
     return (
       new Sitemap(router)
-          .build("https://www.monumentmonitor.co.uk")
+          .build("https://monumentalconservation.github.io/new-site")
           .save("./public/sitemap.xml")
     );
 }
