@@ -2,7 +2,7 @@
   "name": "mmt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://monumentalconservation.github.io/new-site/",
+  "homepage": "https://monumentalconservation.github.io/original-site/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "normalize.css": "^8.0.1",
