@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ef38948b03b0d64aacbd",
+    "revision": "dd0d103ca8d3c36b2908",
     "url": "/original-site/static/css/main.db7b907b.chunk.css"
   },
   {
-    "revision": "ef38948b03b0d64aacbd",
-    "url": "/original-site/static/js/main.3e7df6e1.chunk.js"
+    "revision": "dd0d103ca8d3c36b2908",
+    "url": "/original-site/static/js/main.fa44dd00.chunk.js"
   },
   {
     "revision": "57f43291ba3641d34410",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/original-site/static/media/rekrei.c8959762.png"
   },
   {
-    "revision": "946175087def244b80d7f0a6cea11272",
+    "revision": "d74dfd9b6aa734c94f66597f1c8eb87a",
     "url": "/original-site/index.html"
   }
 ];
