@@ -5,7 +5,7 @@ export default (
   <Route>
     <Route exact path="/" />
     <Route path="/sites" />
-    <Route path="/new-site"  />
+    <Route path="/original-site"  />
     <Route path="/about" />
     <Route path="/gdpr" />
   </Route>

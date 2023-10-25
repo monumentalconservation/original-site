@@ -22,7 +22,7 @@ class App extends Component {
           {/* routed pages */}
           <Route exact path="/" component={Home} />
           <Route path="/sites" component={Sites} />
-          <Route path="/new-site" component={Home} />
+          <Route path="/original-site" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/gdpr" component={GDPR} />
           <Route path="/results" component={Results} />
